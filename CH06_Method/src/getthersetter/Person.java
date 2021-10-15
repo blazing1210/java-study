@@ -6,6 +6,7 @@ public class Person {
 	private int age;
 	void setName(String name) {
 		this.name=name;
+		//this는 본인 클래스의 객체(Person)를 가르킴
 	}
 	String getName() {
 		return name;

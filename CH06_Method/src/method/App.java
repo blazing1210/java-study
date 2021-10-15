@@ -1,6 +1,5 @@
 package method;
 
-import getthersetter.Person;
 
 public class App {
 
