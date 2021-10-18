@@ -20,9 +20,19 @@ public class Hangman {
 				
 			}while(running);
 		}
-	
+		
+		public void close() {
+			scanner.close();
+		}
 		public void checkUserInput() {
 			System.out.println("체크");
+			
+			if(word.isCompleted()) {
+				System.out.println("잘 맞췄어요!");
+				System.out.println("정답은 : "+word.toString());
+				running=false;
+			}
+			
 		}
 		public void getUserInput() {
 			//유저에게 한 문자 입력요구

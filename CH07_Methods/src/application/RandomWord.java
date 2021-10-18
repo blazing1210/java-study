@@ -42,5 +42,15 @@ public class RandomWord {
 				characters[i]=c;
 			}
 		}
+		
+	}
+	
+	public boolean isCompleted() {
+		for(char c:characters) {
+			if (c=='\u0000') {
+			return false; 
+		}
+		}
+		return true;
 	}
 }
