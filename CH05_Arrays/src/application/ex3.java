@@ -14,7 +14,7 @@ public class ex3 {
 				total+=values[i][j];
 			}
 		}
-		System.out.println("ÃÑÇÕÀº:"+total);
+		System.out.println("ì´í•©ì€:"+total);
 	}
 
 }

@@ -4,19 +4,19 @@ import java.util.Scanner;
 import java.util.Random;
 
 public class Hangman {
-	//°ÔÀÓ½ÃÀÛ
+	//ê²Œì„ì‹œì‘
 	RandomWord word= new RandomWord();
 	private boolean running=true;
 	private Scanner scanner=new Scanner(System.in);
 	public void run() {
 	
-//	1. È­¸é¿¡ ´Ü¾îÇ¥½Ã
-//	2. ÀÔ·Â
-//	3. Ã¶ÀÚ°¡ ¸Â´ÂÁö Ã¼Å© (´Ù ¸ÂÀ¸¸é Á¾·á)
+//	1. í™”ë©´ì— ë‹¨ì–´í‘œì‹œ
+//	2. ì…ë ¥
+//	3. ì² ìê°€ ë§ëŠ”ì§€ ì²´í¬ (ë‹¤ ë§ìœ¼ë©´ ì¢…ë£Œ)
 			do {
-				displayWord();//È­¸é¿¡ ´Ü¾îÇ¥½Ã
-				getUserInput();//ÀÔ·Â¹ŞÀ½
-				checkUserInput();//¸Â´ÂÁö Ã¼Å© ´Ù ¸ÂÀ¸¸é running = false
+				displayWord();//í™”ë©´ì— ë‹¨ì–´í‘œì‹œ
+				getUserInput();//ì…ë ¥ë°›ìŒ
+				checkUserInput();//ë§ëŠ”ì§€ ì²´í¬ ë‹¤ ë§ìœ¼ë©´ running = false
 				
 			}while(running);
 		}
@@ -25,19 +25,19 @@ public class Hangman {
 			scanner.close();
 		}
 		public void checkUserInput() {
-			System.out.println("Ã¼Å©");
+			System.out.println("ì²´í¬");
 			
 			if(word.isCompleted()) {
-				System.out.println("Àß ¸ÂÃè¾î¿ä!");
-				System.out.println("Á¤´äÀº : "+word.toString());
+				System.out.println("ì˜ ë§ì·„ì–´ìš”!");
+				System.out.println("ì •ë‹µì€ : "+word.toString());
 				running=false;
 			}
 			
 		}
 		public void getUserInput() {
-			//À¯Àú¿¡°Ô ÇÑ ¹®ÀÚ ÀÔ·Â¿ä±¸
-			//ÀÔ·Â¹ŞÀº ¹®ÀÚ¿­¿¡¼­ ±× ¹®ÀÚ¸¦ »Ì¾Æ¼­ RandomWord °´Ã¼¿¡ Àü´Ş addGuess¸Ş¼Òµå
-			System.out.print("ÇÑ ¹®ÀÚ ÀÔ·Â: ");
+			//ìœ ì €ì—ê²Œ í•œ ë¬¸ì ì…ë ¥ìš”êµ¬
+			//ì…ë ¥ë°›ì€ ë¬¸ìì—´ì—ì„œ ê·¸ ë¬¸ìë¥¼ ë½‘ì•„ì„œ RandomWord ê°ì²´ì— ì „ë‹¬ addGuessë©”ì†Œë“œ
+			System.out.print("í•œ ë¬¸ì ì…ë ¥: ");
 			String guess=scanner.nextLine();
 			word.addGuess(guess.charAt(0));
 		}

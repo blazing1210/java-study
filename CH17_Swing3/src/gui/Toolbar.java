@@ -13,14 +13,14 @@ public class Toolbar extends JToolBar{
 		JButton redButton=new JButton("RED");
 		JButton blueButton=new JButton("BLUE");
 		
-		redButton.addActionListener(new ActionListener() {//ÀÍ¸íÅ¬·¡½º
-			public void actionPerformed(ActionEvent e) {//¸¶¿ì½ºÅ¬¸¯½Ã ½ÇÇà
+		redButton.addActionListener(new ActionListener() {//ìµëª…í´ë˜ìŠ¤
+			public void actionPerformed(ActionEvent e) {//ë§ˆìš°ìŠ¤í´ë¦­ì‹œ ì‹¤í–‰
 				colorchanger.changeColor(Color.RED);
 			}
 			
 		});
 		blueButton.addActionListener(e->colorchanger.changeColor(Color.BLUE));
-		//¶÷´Ù½Ä
+		//ëŒë‹¤ì‹
 		add(redButton);
 		add(blueButton);
 	}

@@ -7,8 +7,8 @@ public class App {
 		win.setwidth(400);
 		win.setinvisible(true);
 		
-		System.out.println("Ã¢ÀÇ °¡·Î±æÀÌ: "+win.getwidth());
-		System.out.println("º¸ÀÌ´Â°¡? "+win.getinvisible());
+		System.out.println("ì°½ì˜ ê°€ë¡œê¸¸ì´: "+win.getwidth());
+		System.out.println("ë³´ì´ëŠ”ê°€? "+win.getinvisible());
 
 	}
 

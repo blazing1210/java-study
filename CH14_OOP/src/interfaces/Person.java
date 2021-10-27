@@ -3,6 +3,6 @@ package interfaces;
 public class Person implements Describable{
 	@Override
 	public String getDescription() {
-		return "»ç¶÷ ÀÔ´Ï´Ù";
+		return "ì‚¬ëžŒ ìž…ë‹ˆë‹¤";
 	}
 }

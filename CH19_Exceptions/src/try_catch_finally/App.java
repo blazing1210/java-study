@@ -6,14 +6,14 @@ public class App {
 		Person p1=new Person();
 		try {
 		p1.setName(null);
-		System.out.println("¿©±â´Â ½ÇÇà¾ÈµÊ");
+		System.out.println("ì—¬ê¸°ëŠ” ì‹¤í–‰ì•ˆë¨");
 		}catch(Exception e) {
 		System.out.println(e.getMessage());
 		}finally {
-			//¿¹¿Ü°¡ ¹ß»ıÇÏµç ¾ÈÇÏµç ¹«Á¶°Ç ½ÇÇàµÇ´Â ÄÚµå
-			System.out.println("¹«Á¶°Ç ½ÇÇà");
+			//ì˜ˆì™¸ê°€ ë°œìƒí•˜ë“  ì•ˆí•˜ë“  ë¬´ì¡°ê±´ ì‹¤í–‰ë˜ëŠ” ì½”ë“œ
+			System.out.println("ë¬´ì¡°ê±´ ì‹¤í–‰");
 		}
-		System.out.println("ÇÁ·Î±×·¥ Á¾·á");
+		System.out.println("í”„ë¡œê·¸ë¨ ì¢…ë£Œ");
 	}
 
 }

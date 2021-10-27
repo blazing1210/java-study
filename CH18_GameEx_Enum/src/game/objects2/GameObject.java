@@ -1,7 +1,7 @@
 package game.objects2;
 
 public enum GameObject {
-	°¡À§,¹ÙÀ§,º¸;
+	ê°€ìœ„,ë°”ìœ„,ë³´;
 	private int[][] comparison= {{0,-1,1},
 								{1,0,-1},
 								{-1,1,0}};

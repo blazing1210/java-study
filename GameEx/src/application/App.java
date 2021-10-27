@@ -3,7 +3,7 @@ import game.Game;
 public class App {
 
 	public static void main(String[] args) {
-		// °ÔÀÓ½ÃÀÛ
+		// ê²Œì„ì‹œì‘
 //		Game game=new Game();
 //		game.run();
 		new Game().run();

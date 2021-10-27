@@ -3,6 +3,6 @@ package abstractClass;
 public class Player extends GameObject{
 	@Override
 	public void describe() {
-		System.out.println("ÇÃ·¹ÀÌ¾î ÀÔ´Ï´Ù.");
+		System.out.println("í”Œë ˆì´ì–´ ì…ë‹ˆë‹¤.");
 	}
 }

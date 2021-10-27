@@ -6,7 +6,7 @@ public class Gasoline {
 		double gasoline=8.86;
 		double distance=182.736;
 		double efficiency=calcEffiency(gasoline,distance);
-		System.out.printf("¿¬ºñ : %.2f km/L",efficiency);
+		System.out.printf("ì—°ë¹„ : %.2f km/L",efficiency);
 		
 
 	}

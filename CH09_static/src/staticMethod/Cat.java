@@ -3,18 +3,18 @@ package staticMethod;
 public class Cat {
 	private String name;
 	private int id;
-	public static final String FOOD ="°í¾çÀÌ »ç·á";
-	private static int count =0;//»ı¼ºÇÑ ²¿¾çÀÌÀÇ ¼ıÀÚ
-	public Cat(String name) {//»ı¼ºÀÚ´Â ¸®ÅÏÅ¸ÀÔÀÌ ¾øÀ½ ÀÏ¹İ ¸Ş¼Òµå¶û ´Ù¸§
+	public static final String FOOD ="ê³ ì–‘ì´ ì‚¬ë£Œ";
+	private static int count =0;//ìƒì„±í•œ ê¼¬ì–‘ì´ì˜ ìˆ«ì
+	public Cat(String name) {//ìƒì„±ìëŠ” ë¦¬í„´íƒ€ì…ì´ ì—†ìŒ ì¼ë°˜ ë©”ì†Œë“œë‘ ë‹¤ë¦„
 		this.name=name;
 		count++;
 	}
 	@Override
 	public String  toString() {
-		return "°í¾çÀÌ[¾ÆÀÌµğ="+id+", ÀÌ¸§="+name+"]";
+		return "ê³ ì–‘ì´[ì•„ì´ë””="+id+", ì´ë¦„="+name+"]";
 	}
-	public static int getCount() {//½ºÅÂÆ½ ¸Ş¼Òµå
-		//String n= name; ½ºÅ×Æ½¸Ş¼Òµå¿¡¼­ ÀÎ½ºÅÏ½º(°´Ã¼) º¯¼ö¸¦ »ç¿ëÇÒ ¼ö ¾øÀ½.
+	public static int getCount() {//ìŠ¤íƒœí‹± ë©”ì†Œë“œ
+		//String n= name; ìŠ¤í…Œí‹±ë©”ì†Œë“œì—ì„œ ì¸ìŠ¤í„´ìŠ¤(ê°ì²´) ë³€ìˆ˜ë¥¼ ì‚¬ìš©í•  ìˆ˜ ì—†ìŒ.
 		return count;
 	}
 }

@@ -3,18 +3,18 @@ package constructorParameter;
 
 public class Person {
 		public Person() {
-			name="½Å¿ø¹Ì»ó";
+			name="ì‹ ì›ë¯¸ìƒ";
 			height=0.0;
 		}
-		//º¯¼ö
+		//ë³€ìˆ˜
 	
 		private String name;
 		private double height;
-		//»ı¼ºÀÚ »ı·«°¡´É
+		//ìƒì„±ì ìƒëµê°€ëŠ¥
 		public Person(String name,double height){
 			this.name=name;
 			this.height=height;
-			System.out.println("ÇÑ »ç¶÷À» »ı¼º!");
+			System.out.println("í•œ ì‚¬ëŒì„ ìƒì„±!");
 		}
 		void setName(String name) {
 			this.name=name;
@@ -29,7 +29,7 @@ public class Person {
 			return height;
 		}
 		public String toString() {
-			String text ="ÀÌ¸§: "+name+" Å° :"+height;
+			String text ="ì´ë¦„: "+name+" í‚¤ :"+height;
 			return text;
 		}
 

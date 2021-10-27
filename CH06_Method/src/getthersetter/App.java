@@ -3,9 +3,9 @@ package getthersetter;
 public class App {
 
 	public static void main(String[] args) {
-		// Á¢±ÙÁ¦¾îÀÚ private´Â °°Àº Å¬·¡½º¿¡¼­¸¸ Á¢±Ù°¡´É
+		// ì ‘ê·¼ì œì–´ì privateëŠ” ê°™ì€ í´ë˜ìŠ¤ì—ì„œë§Œ ì ‘ê·¼ê°€ëŠ¥
 		Person p1=new Person();
-		p1.setName("Æë¼ö");
+		p1.setName("í­ìˆ˜");
 		System.out.println(p1.getName());
 		p1.setAge(12);
 		System.out.println(p1.getAge());

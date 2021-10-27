@@ -5,13 +5,13 @@ public class Person {
 	private int age;
 
 	public Person(){
-		System.out.println("µğÆúÆ® »ı¼ºÀÚ·Î »ı¼ºµÊ!");
-		name="¾Ë ¼ö ¾øÀ½";
+		System.out.println("ë””í´íŠ¸ ìƒì„±ìë¡œ ìƒì„±ë¨!");
+		name="ì•Œ ìˆ˜ ì—†ìŒ";
 		age=0;
 	}
 	
 	public Person(String name) {
-		System.out.println("Person »ı¼ºµÊ!");
+		System.out.println("Person ìƒì„±ë¨!");
 		this.name=name;
 		age=0;
 	}

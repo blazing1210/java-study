@@ -5,16 +5,16 @@ public class Elevator {
 		int a=13;
 		int b=7;
 		int c=10;
-		System.out.printf("%dÃş->%s¿¤·¹º£ÀÌÅÍ\n",a,guide(a));
-		System.out.printf("%dÃş->%s¿¤·¹º£ÀÌÅÍ\n",b,guide(b));
-		System.out.printf("%dÃş->%s¿¤·¹º£ÀÌÅÍ\n",c,guide(c));		
+		System.out.printf("%dì¸µ->%sì—˜ë ˆë² ì´í„°\n",a,guide(a));
+		System.out.printf("%dì¸µ->%sì—˜ë ˆë² ì´í„°\n",b,guide(b));
+		System.out.printf("%dì¸µ->%sì—˜ë ˆë² ì´í„°\n",c,guide(c));		
 	}
 	public static String guide(int floor) {
 		if(floor<10) {
-			return "ÀúÃş";
+			return "ì €ì¸µ";
 		}
 		else {
-			return "°íÃş";
+			return "ê³ ì¸µ";
 		}
 	}
 	

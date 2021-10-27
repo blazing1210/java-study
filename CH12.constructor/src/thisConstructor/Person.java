@@ -5,8 +5,8 @@ public class Person {
 	private int age;
 
 	public Person(){
-		this("¸ğ¸§",0);
-//		name="¾Ë ¼ö ¾øÀ½";
+		this("ëª¨ë¦„",0);
+//		name="ì•Œ ìˆ˜ ì—†ìŒ";
 //		age=0;
 
 	}

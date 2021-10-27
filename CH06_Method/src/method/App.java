@@ -5,16 +5,16 @@ public class App {
 
 	public static void main(String[] args) {
 		Person p1=new Person();
-		System.out.println(p1.name);//ÂüÁ¶ ÀÚ·áÇü StringÀº NULL°ªÀÌ ÃÊ±â°ª
-		System.out.println(p1.age);//int´Â 0ÀÌ ÃÊ±â°ª
-		p1.sayHello();//Å¬·¡½º ¾È¿¡ ÀÖ´Â ÇÔ¼ö(¸Ş¼Òµå) ¸Ş¼ÒµåÈ£Ãâ
-		p1.name="Æë¼ö";
+		System.out.println(p1.name);//ì°¸ì¡° ìë£Œí˜• Stringì€ NULLê°’ì´ ì´ˆê¸°ê°’
+		System.out.println(p1.age);//intëŠ” 0ì´ ì´ˆê¸°ê°’
+		p1.sayHello();//í´ë˜ìŠ¤ ì•ˆì— ìˆëŠ” í•¨ìˆ˜(ë©”ì†Œë“œ) ë©”ì†Œë“œí˜¸ì¶œ
+		p1.name="í­ìˆ˜";
 		p1.age=7;
 		p1.sayHello();
 		Person p2=new Person();
-		p2.name="±æµ¿";
+		p2.name="ê¸¸ë™";
 		Person p3=new Person();
-		p3.name="¶óÀÌ¾ğ";
+		p3.name="ë¼ì´ì–¸";
 		p2.sayHello();
 		p3.sayHello();
 	}

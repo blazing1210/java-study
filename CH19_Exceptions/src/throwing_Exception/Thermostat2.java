@@ -3,9 +3,9 @@ package throwing_Exception;
 public class Thermostat2 {
 	public void setTemperature(double temperature) throws Exception {
 		if(temperature<0||temperature>35) {
-			//¿Âµµ°ªÀÌ ºñÁ¤»óÀ¸·Î ¿©°Ü¼­ ¿¹¿Ü Ã³¸®ÇÑ´Ù.throw´Â ÀÏ´Ü ¿¹¿Ü¸¦ ³ªÁß¿¡ Ã³¸®(ÀÌ ¸Ş¼Òµå¸¦ È£ÃâÇÒ¶§ Ã³¸®))
-			throw new Exception("¿Âµµ°¡ ºñÁ¤»ó ÀÔ´Ï´Ù.");
+			//ì˜¨ë„ê°’ì´ ë¹„ì •ìƒìœ¼ë¡œ ì—¬ê²¨ì„œ ì˜ˆì™¸ ì²˜ë¦¬í•œë‹¤.throwëŠ” ì¼ë‹¨ ì˜ˆì™¸ë¥¼ ë‚˜ì¤‘ì— ì²˜ë¦¬(ì´ ë©”ì†Œë“œë¥¼ í˜¸ì¶œí• ë•Œ ì²˜ë¦¬))
+			throw new Exception("ì˜¨ë„ê°€ ë¹„ì •ìƒ ì…ë‹ˆë‹¤.");
 		}
-		System.out.println("¿Âµµ ¼¼ÆÃ:"+temperature);
+		System.out.println("ì˜¨ë„ ì„¸íŒ…:"+temperature);
 	}
 }

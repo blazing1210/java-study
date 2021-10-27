@@ -2,7 +2,7 @@ package returnvalues;
 
 public class Returnvalue {
 	String getAnimal(){
-//		System.out.println("°í¾çÀÌ¸¦ ¸®ÅÏÇÕ´Ï´Ù.");
-		return "°í¾çÀÌ";
+//		System.out.println("ê³ ì–‘ì´ë¥¼ ë¦¬í„´í•©ë‹ˆë‹¤.");
+		return "ê³ ì–‘ì´";
 	}
 }

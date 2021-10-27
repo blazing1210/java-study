@@ -6,16 +6,16 @@ public class App {
 
 	public static void main(String[] args) {
 	Scanner scanner=new Scanner(System.in);
-	System.out.print("¼ıÀÚ¸¦ ÀÔ·Â : ");
+	System.out.print("ìˆ«ìë¥¼ ì…ë ¥ : ");
 	String line  = scanner.nextLine();
 	int number=0;
-	try {//¿¡·¯°¡ ³¯¼ö ÀÖ´Â ÄÚµå¸¦ try¹® ¾È¿¡ ³Ö´Â´Ù.
+	try {//ì—ëŸ¬ê°€ ë‚ ìˆ˜ ìˆëŠ” ì½”ë“œë¥¼ tryë¬¸ ì•ˆì— ë„£ëŠ”ë‹¤.
 		number=Integer.parseInt(line);
-		System.out.println("¿©±â´Â ½ÇÇàµÇÁö ¾Ê¾Æ¿ä.");
-	} catch (Exception e) {//try¿¡¼­ ¿¡·¯ ¹ß»ı½Ã catch¹®¿¡¼­ Ã³¸®ÇÑ´Ù.
-		System.out.println("¼ıÀÚ ÀÔ·ÂÀÌ ¾Æ´Õ´Ï´Ù.");
+		System.out.println("ì—¬ê¸°ëŠ” ì‹¤í–‰ë˜ì§€ ì•Šì•„ìš”.");
+	} catch (Exception e) {//tryì—ì„œ ì—ëŸ¬ ë°œìƒì‹œ catchë¬¸ì—ì„œ ì²˜ë¦¬í•œë‹¤.
+		System.out.println("ìˆ«ì ì…ë ¥ì´ ì•„ë‹™ë‹ˆë‹¤.");
 	}
-	System.out.println("ÀÔ·ÂÇÑ ¼ıÀÚ´Â: "+number);
+	System.out.println("ì…ë ¥í•œ ìˆ«ìëŠ”: "+number);
 	scanner.close();
 	}
 

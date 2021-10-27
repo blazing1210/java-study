@@ -7,7 +7,7 @@ public class App {
 		cat1.vocal();
 		cat1.hunt();
 //		cat1.call();
-//		Cat Å¸ÀÔÀÌ±â ¶§¹®¿¡ °í¾çÀÌ ¸Ş¼Òµå¸¸ »ç¿ë°¡´É(¿À¹ö¶óÀÌµù)
+//		Cat íƒ€ì…ì´ê¸° ë•Œë¬¸ì— ê³ ì–‘ì´ ë©”ì†Œë“œë§Œ ì‚¬ìš©ê°€ëŠ¥(ì˜¤ë²„ë¼ì´ë”©)
 		HouseCat cat2=(HouseCat)cat1;
 		cat2.vocal();
 		cat2.hunt();

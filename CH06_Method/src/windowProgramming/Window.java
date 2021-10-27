@@ -1,7 +1,7 @@
 package windowProgramming;
 
 public class Window {
-	//Å¬·¡½º º¯¼ö
+	//í´ë˜ìŠ¤ ë³€ìˆ˜
 	private int width;
 	private int height;
 	private boolean invisible;

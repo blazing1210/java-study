@@ -10,7 +10,7 @@ public class App {
 	public static void main(String[] args) {
 		
 		SwingUtilities.invokeLater(()->{
-			JFrame mainFrame=new MainFrame("ев╫╨ф╝ ╫╨ю╝");		
+			JFrame mainFrame=new MainFrame("М┘▄Л┼╓М┼╦ Л┼╓Л°≥");		
 		});
 
 	}

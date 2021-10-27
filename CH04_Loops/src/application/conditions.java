@@ -2,10 +2,10 @@ package application;
 
 public class conditions {
 	public static void main(String[] args){
-		//Á¶°Ç¹®
+		//ì¡°ê±´ë¬¸
 		int counter =0;
 		while(counter<10) {
-			System.out.println("Ä«¿îÅÍ : "+(counter+1));
+			System.out.println("ì¹´ìš´í„° : "+(counter+1));
 			counter=counter+1;
 		}
 	}

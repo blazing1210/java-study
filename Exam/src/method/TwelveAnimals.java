@@ -10,35 +10,35 @@ public class TwelveAnimals {
 	private static void printAnimal(int birthYear) {
 		String animal="";
 		switch(birthYear % 12) {
-		case 0: animal="¿ø¼şÀÌ";
+		case 0: animal="ì›ìˆ­ì´";
 				break;
-		case 1: animal="´ß";
+		case 1: animal="ë‹­";
 		break;
-		case 2: animal="°³";
+		case 2: animal="ê°œ";
 		break;
-		case 3: animal="µÅÁö";
+		case 3: animal="ë¼ì§€";
 		break;
-		case 4: animal="Áã";
+		case 4: animal="ì¥";
 		break;
-		case 5: animal="¼Ò";
+		case 5: animal="ì†Œ";
 		break;
-		case 6: animal="È£¶ûÀÌ";
+		case 6: animal="í˜¸ë‘ì´";
 		break;
-		case 7: animal="Åä³¢";
+		case 7: animal="í† ë¼";
 		break;
-		case 8: animal="¿ë";
+		case 8: animal="ìš©";
 		break;
-		case 9: animal="¹ì";
+		case 9: animal="ë±€";
 		break;
-		case 10: animal="¸»";
+		case 10: animal="ë§";
 		break;
-		case 11: animal="¾ç";
+		case 11: animal="ì–‘";
 		break;		
 		default:
 			animal="ERROR!";
 			break;	
 		}
-		System.out.printf("%d³â->%s¶ì\n",birthYear,animal);
+		System.out.printf("%dë…„->%së \n",birthYear,animal);
 	}
 	
 }

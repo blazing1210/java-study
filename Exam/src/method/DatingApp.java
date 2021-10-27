@@ -7,9 +7,9 @@ public class DatingApp {
 		Strisng y=rating(3.8,4.1,3.5);
 		Strisng z=rating(3.6,3.0,3.4);
 		
-		System.out.printf("X->%sµî±Þ\n",x);
-		System.out.printf("Y->%sµî±Þ\n",y);
-		System.out.printf("Z->%sµî±Þ\n",z);
+		System.out.printf("X->%së“±ê¸‰\n",x);
+		System.out.printf("Y->%së“±ê¸‰\n",y);
+		System.out.printf("Z->%së“±ê¸‰\n",z);
 	}
 	public static String rating(double personality,double look,double ability) {
 		String result="";

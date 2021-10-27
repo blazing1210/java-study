@@ -9,14 +9,14 @@ import java.util.concurrent.TimeUnit;
 class Alert extends TimerTask{
 	@Override
 	public void run() {
-		System.out.println("Çï·Î¿ì");
+		System.out.println("í—¬ë¡œìš°");
 	}
 }
 class Task implements Runnable{
 
 	@Override
 	public void run() {
-		System.out.println("ÇÏÀÌ!");
+		System.out.println("í•˜ì´!");
 		
 	}
 	
@@ -28,7 +28,7 @@ public class App {
 		Timer timer=new Timer();
 		timer.scheduleAtFixedRate(new Alert(), 0L, 1000L);
 		ScheduledExecutorService executor=Executors.newScheduledThreadPool(1);
-		executor.scheduleAtFixedRate(new Task(), 0, 1, TimeUnit.SECONDS);//ÇÒÀÏ,µô·¹ÀÌ,¹İº¹½Ã°£,½Ã°£Å¸ÀÔ
+		executor.scheduleAtFixedRate(new Task(), 0, 1, TimeUnit.SECONDS);//í• ì¼,ë”œë ˆì´,ë°˜ë³µì‹œê°„,ì‹œê°„íƒ€ì…
 		
 	}
 

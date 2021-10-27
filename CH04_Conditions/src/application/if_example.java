@@ -3,20 +3,20 @@ import java.util.Scanner;
 public class if_example {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		System.out.print("»ç°úÀÇ °¹¼ö´Â?");
+		System.out.print("ì‚¬ê³¼ì˜ ê°¯ìˆ˜ëŠ”?");
 		int apples=scan.nextInt();
-		System.out.print("¹Ù³ª³ªÀÇ °¹¼ö´Â?");
+		System.out.print("ë°”ë‚˜ë‚˜ì˜ ê°¯ìˆ˜ëŠ”?");
 		int bananas=scan.nextInt();
 		scan.close();
 		if(apples>bananas) {
-			System.out.println("»ç°ú°¡ ¹Ù³ª³ªº¸´Ù ¸¹À½");
+			System.out.println("ì‚¬ê³¼ê°€ ë°”ë‚˜ë‚˜ë³´ë‹¤ ë§ìŒ");
 		}
 		else if(apples==bananas) {
-			System.out.println("¹Ù³ª³ª¿Í »ç°úÀÇ ¼ö°¡ °°À½");
+			System.out.println("ë°”ë‚˜ë‚˜ì™€ ì‚¬ê³¼ì˜ ìˆ˜ê°€ ê°™ìŒ");
 		}
 		else{
-			System.out.println("¹Ù³ª³ª°¡ »ç°úº¸´Ù ¸¹À½");
+			System.out.println("ë°”ë‚˜ë‚˜ê°€ ì‚¬ê³¼ë³´ë‹¤ ë§ìŒ");
 		}
-		System.out.println("ÇÁ·Î±×·¥Á¾·á");
+		System.out.println("í”„ë¡œê·¸ë¨ì¢…ë£Œ");
 	}
 }

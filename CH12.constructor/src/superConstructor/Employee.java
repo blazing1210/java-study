@@ -2,7 +2,7 @@ package superConstructor;
 
 public class Employee extends Person{
 	public Employee() {
-		super("ÀÍ¸í");
-		System.out.println("emp»ı¼ºÀÚ");
+		super("ìµëª…");
+		System.out.println("empìƒì„±ì");
 	}
 }

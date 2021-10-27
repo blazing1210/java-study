@@ -3,10 +3,10 @@ package throwing_Exception;
 public class App {
 
 	public static void main(String[] args) {
-		//¿¹¿Ü Ã³¸®¸¦ ³Ñ±è
+		//ì˜ˆì™¸ ì²˜ë¦¬ë¥¼ ë„˜ê¹€
 		Thermostat2 stat =new Thermostat2();
-		//setTemperature ¸Ş¼Òµå¿¡¼­ ¿¹¿ÜÃ³¸®¸¦ throwÇß±â¶§¹®¿¡ È£ÃâÇÒ¶§ Ã³¸®ÇØ¾ßÇÑ´Ù.
-		//try-catch´Â ¹Ù·ÎÃ³¸®throw´Â³Ñ±è
+		//setTemperature ë©”ì†Œë“œì—ì„œ ì˜ˆì™¸ì²˜ë¦¬ë¥¼ throwí–ˆê¸°ë•Œë¬¸ì— í˜¸ì¶œí• ë•Œ ì²˜ë¦¬í•´ì•¼í•œë‹¤.
+		//try-catchëŠ” ë°”ë¡œì²˜ë¦¬throwëŠ”ë„˜ê¹€
 		try {
 			stat.setTemperature(36);
 		} catch (Exception a) {

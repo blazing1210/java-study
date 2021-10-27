@@ -7,18 +7,18 @@ public class BooleanAndOr {
 		boolean mightRain=true;
 		boolean haveUmbrella=false;
 		if((isRaining||mightRain)&&haveUmbrella) {
-			System.out.println("¿ì»êÀ» ¾´´Ù!");
+			System.out.println("ìš°ì‚°ì„ ì“´ë‹¤!");
 		}
 		else {
-			System.out.println("¿ì»êÀ» ¾²Áö ¾Ê´Â´Ù.");
+			System.out.println("ìš°ì‚°ì„ ì“°ì§€ ì•ŠëŠ”ë‹¤.");
 		}
 		boolean rainCheck=isRaining||mightRain;
 		
 		if((rainCheck&&haveUmbrella) {
-			System.out.println("¿ì»êÀ» ¾´´Ù!");
+			System.out.println("ìš°ì‚°ì„ ì“´ë‹¤!");
 		}
 		else {
-			System.out.println("¿ì»êÀ» ¾²Áö ¾Ê´Â´Ù.");
+			System.out.println("ìš°ì‚°ì„ ì“°ì§€ ì•ŠëŠ”ë‹¤.");
 		}
 	}
 

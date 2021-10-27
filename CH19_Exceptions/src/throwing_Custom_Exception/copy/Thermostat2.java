@@ -7,11 +7,11 @@ import throwing_Custom_Exception.exception.Temp2LowException2;
 public class Thermostat2 {
 	public void setTemperature(double temperature) throws Temp2HighException, Temp2LowException2{
 		if(temperature<0) {
-			//¿Âµµ°ªÀÌ ºñÁ¤»óÀ¸·Î ¿©°Ü¼­ ¿¹¿Ü Ã³¸®ÇÑ´Ù.throw´Â ÀÏ´Ü ¿¹¿Ü¸¦ ³ªÁß¿¡ Ã³¸®(ÀÌ ¸Ş¼Òµå¸¦ È£ÃâÇÒ¶§ Ã³¸®))
-			throw new Temp2LowException2("¿Âµµ°¡ ³Ê¹« ³·½À´Ï´Ù..");
+			//ì˜¨ë„ê°’ì´ ë¹„ì •ìƒìœ¼ë¡œ ì—¬ê²¨ì„œ ì˜ˆì™¸ ì²˜ë¦¬í•œë‹¤.throwëŠ” ì¼ë‹¨ ì˜ˆì™¸ë¥¼ ë‚˜ì¤‘ì— ì²˜ë¦¬(ì´ ë©”ì†Œë“œë¥¼ í˜¸ì¶œí• ë•Œ ì²˜ë¦¬))
+			throw new Temp2LowException2("ì˜¨ë„ê°€ ë„ˆë¬´ ë‚®ìŠµë‹ˆë‹¤..");
 		}else if(temperature>35) {
-			throw new Temp2HighException("¿Âµµ°¡ ³Ê¹« ³ô½À´Ï´Ù.");
+			throw new Temp2HighException("ì˜¨ë„ê°€ ë„ˆë¬´ ë†’ìŠµë‹ˆë‹¤.");
 		}
-		System.out.println("¿Âµµ ¼¼ÆÃ:"+temperature);
+		System.out.println("ì˜¨ë„ ì„¸íŒ…:"+temperature);
 	}
 }

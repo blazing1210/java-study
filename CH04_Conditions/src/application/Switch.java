@@ -5,16 +5,16 @@ public class Switch {
 		int option=100;
 		switch(option) {
 		case 0:
-			System.out.println("¿É¼Ç0 ¼±ÅÃ");
+			System.out.println("ì˜µì…˜0 ì„ íƒ");
 			break;
 		case 1:
-			System.out.println("¿É¼Ç1 ¼±ÅÃ");
+			System.out.println("ì˜µì…˜1 ì„ íƒ");
 			break;
 		case 10:
-			System.out.println("ÇÁ·Î±×·¥ Á¾·á..");
+			System.out.println("í”„ë¡œê·¸ë¨ ì¢…ë£Œ..");
 			break;
 		default:
-			System.out.println("Àß¸øµÈ ¿É¼Ç¹øÈ£");
+			System.out.println("ì˜ëª»ëœ ì˜µì…˜ë²ˆí˜¸");
 			break;
 			
 		}

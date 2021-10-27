@@ -4,10 +4,10 @@ public class App {
 
 	public static void main(String[] args) {
 		Returnvalue value1=new Returnvalue();
-		System.out.println(value1.getAnimal()+"¸¦ Ãâ·ÂÇÕ´Ï´Ù");
-		System.out.println(value1.getAnimal()+"¸¦ Ãâ·ÂÇÕ´Ï´Ù");
+		System.out.println(value1.getAnimal()+"ë¥¼ ì¶œë ¥í•©ë‹ˆë‹¤");
+		System.out.println(value1.getAnimal()+"ë¥¼ ì¶œë ¥í•©ë‹ˆë‹¤");
 		String ani=value1.getAnimal();
-		System.out.println(ani+"¸¦ Ãâ·ÂÇÕ´Ï´Ù");
+		System.out.println(ani+"ë¥¼ ì¶œë ¥í•©ë‹ˆë‹¤");
 	}
 
 }

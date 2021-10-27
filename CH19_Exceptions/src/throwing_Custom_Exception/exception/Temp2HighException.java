@@ -5,8 +5,8 @@ public class Temp2HighException extends TempOutOfRangeException{
 	private static final long serialVersionUID = 1L;
 	
 	public Temp2HighException(String message) {
-		//»ı¼ºÀÚ ¿¹¿Ü¸Ş¼¼Áö¸¦ »óÀ§ ¿¹¿ÜÅ¬·¡½º¿¡ Ã³¸®
-		super(message);//¿¹¿Ü Å¬·¡½º¿¡¼­ ¸Ş¼¼Áö¸íÀ¸·Î ¿¹¿Ü¸¦ »ı¼º
+		//ìƒì„±ì ì˜ˆì™¸ë©”ì„¸ì§€ë¥¼ ìƒìœ„ ì˜ˆì™¸í´ë˜ìŠ¤ì— ì²˜ë¦¬
+		super(message);//ì˜ˆì™¸ í´ë˜ìŠ¤ì—ì„œ ë©”ì„¸ì§€ëª…ìœ¼ë¡œ ì˜ˆì™¸ë¥¼ ìƒì„±
 	}
 	
 }

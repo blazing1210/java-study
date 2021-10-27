@@ -8,9 +8,9 @@ import model.World;
 public class GamePanel extends JPanel {
 	private static final long serialVersionUID=1L;
 	
-	private final static int CELLSIZE=100;//°İÀÚÀÇ Å©±â¼³Á¤
-	private final static Color backgroundColor= Color.BLACK;//¹è°æ»ö °ËÀº»ö
-	private final static Color gridColor = Color.GRAY;//°İÀÚ¼±»ö È¸»ö
+	private final static int CELLSIZE=50;//ê²©ìì˜ í¬ê¸°ì„¤ì •
+	private final static Color backgroundColor= Color.BLACK;//ë°°ê²½ìƒ‰ ê²€ì€ìƒ‰
+	private final static Color gridColor = Color.GRAY;//ê²©ìì„ ìƒ‰ íšŒìƒ‰
 	private int leftRightMargin;
 	private int topBottomMargin;
 	private World world;
@@ -19,7 +19,7 @@ public class GamePanel extends JPanel {
 		addMouseListener(new MouseAdapter() {
 			public void mouseClicked(MouseEvent e) {
 				if(e.getY()<topBottomMargin||e.getX()<leftRightMargin) {
-					return;//¹ş¾î³­°ªÀÌ±â¶§¹®¿¡ ¸®ÅÏ
+					return;//ë²—ì–´ë‚œê°’ì´ê¸°ë•Œë¬¸ì— ë¦¬í„´
 				}
 				int row=(e.getY()-topBottomMargin)/CELLSIZE;
 				int col=(e.getX()-leftRightMargin)/CELLSIZE;
@@ -30,16 +30,16 @@ public class GamePanel extends JPanel {
 				world.setCell(row, col, !status);
 				
 				
-				repaint();//»õ·Î°íÄ§
+				repaint();//ìƒˆë¡œê³ ì¹¨
 			}
 		});
 	}
 	@Override
 	protected void paintComponent(Graphics g) {
 		// TODO Auto-generated method stub
-		Graphics2D g2=(Graphics2D)g;//2D±×·¡ÇÈÀ» »ç¿ëÇÏ±â À§ÇØ
-		int width = getWidth();//°¡·Î±æÀÌ
-		int height = getHeight();//¼¼·Î±æÀÌ
+		Graphics2D g2=(Graphics2D)g;//2Dê·¸ë˜í”½ì„ ì‚¬ìš©í•˜ê¸° ìœ„í•´
+		int width = getWidth();//ê°€ë¡œê¸¸ì´
+		int height = getHeight();//ì„¸ë¡œê¸¸ì´
 		
 		leftRightMargin=((width%CELLSIZE)+CELLSIZE)/2;
 		topBottomMargin=((height%CELLSIZE)+CELLSIZE)/2;
@@ -48,14 +48,18 @@ public class GamePanel extends JPanel {
 		int cols=(width-2*leftRightMargin)/CELLSIZE;
 		if(world==null) {
 			world=new World(rows,cols);
+		}else {
+			if(world.getRows()!=rows||world.getColumns()!=cols) {
+				world= new World(rows,cols);
+			}
 		}
 		
-		//gridÀÌÁß¹è¿­¿¡ ÁÂÇ¥°ªÀ» true·Î set
+		//gridì´ì¤‘ë°°ì—´ì— ì¢Œí‘œê°’ì„ trueë¡œ set
 		
-		g2.setColor(backgroundColor);//»ö¼³Á¤
-		g2.fillRect(0,0,width,height);//»ç°¢ÇüÀÇ ÁÂÇ¥¿¡ »öÀ» Ä¥ÇÔ
+		g2.setColor(backgroundColor);//ìƒ‰ì„¤ì •
+		g2.fillRect(0,0,width,height);//ì‚¬ê°í˜•ì˜ ì¢Œí‘œì— ìƒ‰ì„ ì¹ í•¨
 		
-		drawGrid(g2,width,height);//ÁÙÀ» ±ß´Â ¸Ş¼Òµå
+		drawGrid(g2,width,height);//ì¤„ì„ ê¸‹ëŠ” ë©”ì†Œë“œ
 		for(int col=0;col<cols;col++) {
 			for(int row=0;row<rows; row++) {
 				boolean status = world.getCell(row, col);
@@ -65,7 +69,7 @@ public class GamePanel extends JPanel {
 		
 	}
 	private void fillCell(Graphics g2,int row,int col,boolean status) {
-		//»ç°¢Çü¿¡ »öÀ» ³Ö´Â ¸Ş¼Òµå(±×·¡ÇÈ,°¡·Î,¼¼·Î,»óÅÂ(true³ì»ö,false¹è°æ»ö)
+		//ì‚¬ê°í˜•ì— ìƒ‰ì„ ë„£ëŠ” ë©”ì†Œë“œ(ê·¸ë˜í”½,ê°€ë¡œ,ì„¸ë¡œ,ìƒíƒœ(trueë…¹ìƒ‰,falseë°°ê²½ìƒ‰)
 		Color color = status ? Color.GREEN:backgroundColor;
 		g2.setColor(color);
 		int x= leftRightMargin+(col*CELLSIZE);
@@ -76,12 +80,27 @@ public class GamePanel extends JPanel {
 	private void drawGrid(Graphics2D g2,int width, int height) {
 		g2.setColor(gridColor);
 		for(int x=leftRightMargin;x<=width-leftRightMargin;x+=CELLSIZE) {
-			//ÁÙÀ» ±ß´Â ¸Ş¼Òµå (x,y) (x2,y2)
+			//ì¤„ì„ ê¸‹ëŠ” ë©”ì†Œë“œ (x,y) (x2,y2)
 			g2.drawLine(x,topBottomMargin,x,height-topBottomMargin);
 		}
 		for(int y=topBottomMargin;y<=width-topBottomMargin;y+=CELLSIZE) {
-			//ÁÙÀ» ±ß´Â ¸Ş¼Òµå (x,y) (x2,y2)
+			//ì¤„ì„ ê¸‹ëŠ” ë©”ì†Œë“œ (x,y) (x2,y2)
 			g2.drawLine(leftRightMargin,y,width-leftRightMargin,y);
 		}
+	}
+	public void randomize() {
+		//ì—”í„°í‚¤ë¥¼ ëˆŒë €ì„ë•Œ=>ëœë¤ìœ¼ë¡œ ê·¸ë¦¬ë“œ ìƒì„±
+		world.randomize();
+		repaint();
+	}
+	public void clear() {
+		world.clear();
+		repaint();
+		
+	}
+	public void next() {
+		world.next();
+		repaint();
+		
 	}
 }

@@ -6,7 +6,7 @@ public class ex1 {
 		int numbers[]=new int[3];
 		Scanner scan=new Scanner(System.in);
 		for(int i=0;i<numbers.length;i++) {
-			System.out.print("¼ýÀÚ¸¦ ÀÔ·Â: ");
+			System.out.print("ìˆ«ìžë¥¼ ìž…ë ¥: ");
 			numbers[i]=scan.nextInt();
 			
 		}
@@ -16,7 +16,7 @@ public class ex1 {
 			System.out.println(numbers[i]);
 			total+=numbers[i];
 		}
-		System.out.printf("ÇÕ°è: %d",total);
+		System.out.printf("í•©ê³„: %d",total);
 	}
 
 }

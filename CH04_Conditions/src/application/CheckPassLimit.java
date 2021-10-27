@@ -12,14 +12,14 @@ public class CheckPassLimit {
 //			input=scan.nextLine();
 //			
 //			if(count==3) {
-//				System.out.println("立加芭何");
+//				System.out.println("鞝戩啀瓯半秬");
 //				break;
 //			}
 //			count++;
 //		}
 //		while(!USER_PASSWORD.equals(input));
 //		if(USER_PASSWORD.equals(input)) {
-//			System.out.println("立加铰牢");
+//			System.out.println("鞝戩啀鞀轨澑");
 //		}
 //		scan.close();
 		

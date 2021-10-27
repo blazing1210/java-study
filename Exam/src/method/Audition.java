@@ -8,11 +8,11 @@ public class Audition {
 		double kateVocal=9.2;
 		double kateDance=7.8;
 		
-		System.out.printf("TomÀÇ ¿Àµð¼Ç °á°ú: %s\n",test(tomVocal,tomDance));
-		System.out.printf("KateÀÇ ¿Àµð¼Ç °á°ú: %s\n",test(kateVocal,kateDance));
+		System.out.printf("Tomì˜ ì˜¤ë””ì…˜ ê²°ê³¼: %s\n",test(tomVocal,tomDance));
+		System.out.printf("Kateì˜ ì˜¤ë””ì…˜ ê²°ê³¼: %s\n",test(kateVocal,kateDance));
 		
 	}
 	public static String test(double vocal,double dance) {
-		return vocal*dance>=70.0?"ÇÕ°Ý":"ºÒÇÕ°Ý";
+		return vocal*dance>=70.0?"í•©ê²©":"ë¶ˆí•©ê²©";
 	}
 }

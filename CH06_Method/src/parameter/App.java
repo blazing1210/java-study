@@ -7,13 +7,13 @@ public class App {
 		
 		int number=7;
 		int result=calc.square(number);
-		System.out.printf("%dÀÇ Á¦°öÀº %d ÀÌ´Ù.",number,result);
+		System.out.printf("%dì˜ ì œê³±ì€ %d ì´ë‹¤.",number,result);
 		
 		result =calc.plus(10,10);
-		System.out.printf("µÎ ¼öÀÇ ÇÕÀº %d ÀÌ´Ù.",result);
+		System.out.printf("ë‘ ìˆ˜ì˜ í•©ì€ %d ì´ë‹¤.",result);
 		
 		result =calc.minus(10,10);
-		System.out.printf("µÎ ¼öÀÇ Â÷Àº %d ÀÌ´Ù.",result);
+		System.out.printf("ë‘ ìˆ˜ì˜ ì°¨ì€ %d ì´ë‹¤.",result);
 	}
 
 }

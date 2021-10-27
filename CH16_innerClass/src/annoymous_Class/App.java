@@ -1,21 +1,21 @@
 package annoymous_Class;
 
 public class App {
-	private String name="Æë¼ö";
+	private String name="í­ìˆ˜";
 	public static void main(String[] args) {
 		new App().start();
 
 	}
 	private void start() {
-	 Runnable runner=new Runnable() {//ÀÍ¸í Å¬·¡½º
+	 Runnable runner=new Runnable() {//ìµëª… í´ë˜ìŠ¤
 		 public void run() {
-			 System.out.println(name);//³»ºÎÅ¬·¡½º·Î ¿ÜºÎÅ¬·¡½º º¯¼ö »ç¿ë
+			 System.out.println(name);//ë‚´ë¶€í´ë˜ìŠ¤ë¡œ ì™¸ë¶€í´ë˜ìŠ¤ ë³€ìˆ˜ ì‚¬ìš©
 		 }
 	 };
 	 
 	 activate(runner);
 	}
 	private void activate(Runnable runnable) {
-		runnable.run();//Ãß»ó¸Ş¼Òµå runÀ» ½ÇÇà
+		runnable.run();//ì¶”ìƒë©”ì†Œë“œ runì„ ì‹¤í–‰
 	}
 }

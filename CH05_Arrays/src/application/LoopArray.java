@@ -3,8 +3,8 @@ package application;
 public class LoopArray {
 
 	public static void main(String[] args) {
-		// for ¹İº¹¹®°ú ¹®ÀÚ¿­ ÀÎµ¦½º i¸¦ »ç¿ëÇØ ¹è¿­ÀÇ Ã¹¹øÂ°ºÎÅÍ ³¡±îÁö Ãâ·ÂÇÏ¶ó
-		String[] animals= {"°³","°í¾çÀÌ","´ß","»çÀÚ","¾ç","¸»"};
+		// for ë°˜ë³µë¬¸ê³¼ ë¬¸ìì—´ ì¸ë±ìŠ¤ ië¥¼ ì‚¬ìš©í•´ ë°°ì—´ì˜ ì²«ë²ˆì§¸ë¶€í„° ëê¹Œì§€ ì¶œë ¥í•˜ë¼
+		String[] animals= {"ê°œ","ê³ ì–‘ì´","ë‹­","ì‚¬ì","ì–‘","ë§"};
 		for(int i=0;i<animals.length;i++) {
 			System.out.print(animals[i]+" ");
 		}

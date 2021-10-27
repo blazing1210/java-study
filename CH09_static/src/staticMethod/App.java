@@ -4,13 +4,13 @@ import application.Cat;
 
 public class App {
 	public static void main(String[] args) {
-		final String CAT_COUNT="°í¾çÀÌ ¼ıÀÚ:%d\n";
-		//String.formatÀº printf¸¦ ¹®ÀÚ¿­·Î ¸®ÅÏ, ½ºÅ×Æ½¸Ş¼Òµå »ç¿ë
+		final String CAT_COUNT="ê³ ì–‘ì´ ìˆ«ì:%d\n";
+		//String.formatì€ printfë¥¼ ë¬¸ìì—´ë¡œ ë¦¬í„´, ìŠ¤í…Œí‹±ë©”ì†Œë“œ ì‚¬ìš©
 		String catCount=String.format(CAT_COUNT,Cat.getCount());
 		System.out.println(catCount);
-		Cat cat1=new Cat("¸¶Æ¿´Ù");
-		Cat cat2=new Cat("¶óÀÌ¾ğ");
-		Cat cat3=new Cat("¿ï¹ö¸°");
+		Cat cat1=new Cat("ë§ˆí‹¸ë‹¤");
+		Cat cat2=new Cat("ë¼ì´ì–¸");
+		Cat cat3=new Cat("ìš¸ë²„ë¦°");
 		
 		System.out.println(cat1);
 		System.out.println(cat2);

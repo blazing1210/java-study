@@ -4,13 +4,13 @@ public class Machine implements DefaultRannable{
 
 	@Override
 	public void displayDetails() {
-		System.out.println("Ç¥½ÃÇÒ µğÅ×ÀÏ ¾øÀ½");
+		System.out.println("í‘œì‹œí•  ë””í…Œì¼ ì—†ìŒ");
 		
 	}
 
 	@Override
 	public void run() {
-		System.out.println("¸Ó½Å ·¯´×!");
+		System.out.println("ë¨¸ì‹  ëŸ¬ë‹!");
 		
 	}
 

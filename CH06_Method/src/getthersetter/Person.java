@@ -1,12 +1,12 @@
 package getthersetter;
 
 public class Person {
-	//Å¬·¡½º¾È¿¡ ¸¸µç º¯¼ö¸¦ ÀÎ½ºÅÏ½º º¯¼ö¶ó ÇÏ°í > °´Ã¼»ı¼º½Ã »ç¿ë°¡´É(»ı¼ºµÊ)
+	//í´ë˜ìŠ¤ì•ˆì— ë§Œë“  ë³€ìˆ˜ë¥¼ ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ë¼ í•˜ê³  > ê°ì²´ìƒì„±ì‹œ ì‚¬ìš©ê°€ëŠ¥(ìƒì„±ë¨)
 	private String name;
 	private int age;
 	void setName(String name) {
 		this.name=name;
-		//this´Â º»ÀÎ Å¬·¡½ºÀÇ °´Ã¼(Person)¸¦ °¡¸£Å´
+		//thisëŠ” ë³¸ì¸ í´ë˜ìŠ¤ì˜ ê°ì²´(Person)ë¥¼ ê°€ë¥´í‚´
 	}
 	String getName() {
 		return name;

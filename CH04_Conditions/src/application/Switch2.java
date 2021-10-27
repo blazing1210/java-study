@@ -3,20 +3,20 @@ import java.util.Scanner;
 public class Switch2 {
 
 	public static void main(String[] args) {
-		System.out.println("°è¼ÓÁøÇà ÇÏ°Ú½À´Ï±î (y/n)");
+		System.out.println("ê³„ì†ì§„í–‰ í•˜ê² ìŠµë‹ˆê¹Œ (y/n)");
 		
 		Scanner scanner=new Scanner(System.in);
 		String input = scanner.nextLine();
 		scanner.close();
 		switch(input) {
 		case "y":
-			System.out.println("ÁøÇàÇÕ´Ï´Ù...");
+			System.out.println("ì§„í–‰í•©ë‹ˆë‹¤...");
 			break;
 		case "n":
-			System.out.println("Á¾·áÇÕ´Ï´Ù.");
+			System.out.println("ì¢…ë£Œí•©ë‹ˆë‹¤.");
 			break;
 		default:
-			System.out.println("Àß¸øµÈ ÀÔ·ÂÀÔ´Ï´Ù.");
+			System.out.println("ì˜ëª»ëœ ì…ë ¥ì…ë‹ˆë‹¤.");
 			break;
 		
 		

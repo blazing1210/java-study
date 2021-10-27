@@ -5,8 +5,8 @@ public class If {
 		int apples=10;
 		int bananas=5;
 		if(apples>bananas) {
-			System.out.println("»ç°ú°¡ ¹Ù³ª³ªº¸´Ù ¸¹À½");
+			System.out.println("ì‚¬ê³¼ê°€ ë°”ë‚˜ë‚˜ë³´ë‹¤ ë§ìŒ");
 		}
-		System.out.println("ÇÁ·Î±×·¥ÁÁ·á");
+		System.out.println("í”„ë¡œê·¸ë¨ì¢‹ë£Œ");
 	}
 }

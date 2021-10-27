@@ -6,10 +6,10 @@ public class Checkpassworddowhile {
 		final String USER_PASSWORD="hello";
 		String password="";
 		do {
-			System.out.println("ºñ¹Ğ¹øÈ£ ÀÔ·Â:");
+			System.out.println("ë¹„ë°€ë²ˆí˜¸ ì…ë ¥:");
 			password=scan.nextLine();
 		}while(!password.equals(USER_PASSWORD));
 		scan.close();
-		System.out.println("Á¢¼Ó ½ÂÀÎ.");
+		System.out.println("ì ‘ì† ìŠ¹ì¸.");
 	}
 }

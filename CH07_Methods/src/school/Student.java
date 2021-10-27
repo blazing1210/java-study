@@ -6,7 +6,7 @@ public class Student {
 	private boolean isvisible;
 	private double temperatuer;
 	public Student() {
-		name="ÀÌ¸§¸ğ¸§";
+		name="ì´ë¦„ëª¨ë¦„";
 		age=18;
 		isvisible=false;
 		temperatuer=36.5;

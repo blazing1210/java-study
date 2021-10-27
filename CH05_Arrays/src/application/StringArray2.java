@@ -3,18 +3,18 @@ package application;
 public class StringArray2 {
 
 	public static void main(String[] args) {
-		// StringÀº ÂüÁ¶ ÀÚ·áÇü, ÂüÁ¶ º¯¼ö´Â ÁÖ¼Ò°ªÀ» °®´Â´Ù.
-		String text=null;//³ÎÀº ÂüÁ¶º¯¼ö¿¡ ÁÖ¼Ò°ªÀÌ ¾øÀ½.
-		text= new String("Çï·Î¿ì!");
+		// Stringì€ ì°¸ì¡° ìë£Œí˜•, ì°¸ì¡° ë³€ìˆ˜ëŠ” ì£¼ì†Œê°’ì„ ê°–ëŠ”ë‹¤.
+		String text=null;//ë„ì€ ì°¸ì¡°ë³€ìˆ˜ì— ì£¼ì†Œê°’ì´ ì—†ìŒ.
+		text= new String("í—¬ë¡œìš°!");
 		System.out.println(text);
 		String[] texts=null;
 		System.out.println(texts);
 		texts=new String[3];
 		System.out.println(texts[1]);
 		
-		texts[0]=new String("ÇÏÀÌ");
-		texts[1]="¾È³ç?";
-		texts[2]="±Â ¹ÙÀÌ!";
+		texts[0]=new String("í•˜ì´");
+		texts[1]="ì•ˆë…•?";
+		texts[2]="êµ¿ ë°”ì´!";
 		for(String word: texts) {
 			System.out.println(word);
 		}

@@ -5,7 +5,7 @@ public class Computer implements Describable{
 	@Override
 	public String getDescription() {
 		// TODO Auto-generated method stub
-		return "ÄÄÇ»ÅÍ ÀÔ´Ï´Ù.";
+		return "ì»´í“¨í„° ì…ë‹ˆë‹¤.";
 	}
 
 }

@@ -7,8 +7,8 @@ import java.util.concurrent.TimeUnit;
 public class App {
 	private static String name;
 	public App() {
-		//±âº» »ı¼ºÀÚ
-		name="¾Ù¸®ÀÚº£½º";
+		//ê¸°ë³¸ ìƒì„±ì
+		name="ì•¨ë¦¬ìë² ìŠ¤";
 	}
 
 
@@ -28,7 +28,7 @@ public class App {
 	}
 
 	public static void main(String[] args) {
-		//¸Ş¼Òµå ¾ÈÀÇ Å¬·¡½º
+		//ë©”ì†Œë“œ ì•ˆì˜ í´ë˜ìŠ¤
 		System.out.println(name);
 		
 		App app=new App();

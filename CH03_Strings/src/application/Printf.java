@@ -4,12 +4,12 @@ public class Printf {
 
 	public static void main(String[] args) {
 		int age=25;
-		String addr="ºÎ»ê";
-		System.out.printf("³» ³ªÀÌ´Â %d»ì ÀÔ´Ï´Ù.\n", age);
-		System.out.printf("³»°¡ »ç´Â µµ½Ã´Â %s ÀÔ´Ï´Ù.\n",addr);
+		String addr="ë¶€ì‚°";
+		System.out.printf("ë‚´ ë‚˜ì´ëŠ” %dì‚´ ì…ë‹ˆë‹¤.\n", age);
+		System.out.printf("ë‚´ê°€ ì‚¬ëŠ” ë„ì‹œëŠ” %s ì…ë‹ˆë‹¤.\n",addr);
 		
 		double pi=3.14592;
-		System.out.printf("ÆÄÀÌÀÇ °ªÀº:%.2f",pi); //%f »çÀÌ¿¡ .2 ¼Ò¼öÁ¡2ÀÚ¸®
+		System.out.printf("íŒŒì´ì˜ ê°’ì€:%.2f",pi); //%f ì‚¬ì´ì— .2 ì†Œìˆ˜ì 2ìë¦¬
 		
 	}
 

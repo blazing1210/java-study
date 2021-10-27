@@ -1,7 +1,7 @@
 package entities;
 
 public class Fruit {
-	//ÇÁ·ÎÅØÆ¼µå Á¢±Ù ÁöÁ¤ÀÚ
+	//í”„ë¡œí…í‹°ë“œ ì ‘ê·¼ ì§€ì •ì
 	protected int id;
 	@Override
 	public String toString() {

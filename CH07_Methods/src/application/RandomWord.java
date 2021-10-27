@@ -9,8 +9,8 @@ public class RandomWord {
 	private String selectWord;
 	public RandomWord() {
 		Random ran=new Random();
-		selectWord=words[ran.nextInt(words.length)];//·£´ıÀ¸·Î ´Ü¾î¸¦ ¼±ÅÃ
-		characters=new char[selectWord.length()];// ¹®ÀÚ¹è¿­ °ø°£ »ı¼º
+		selectWord=words[ran.nextInt(words.length)];//ëœë¤ìœ¼ë¡œ ë‹¨ì–´ë¥¼ ì„ íƒ
+		characters=new char[selectWord.length()];// ë¬¸ìë°°ì—´ ê³µê°„ ìƒì„±
 	}
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
@@ -35,8 +35,8 @@ public class RandomWord {
 		}
 	}
 	public void addGuess(char c) {
-		//»ç¿ëÀÚ°¡ ÀÔ·ÂÇÑ ÇÑ¹®ÀÚ¸¦ ¼±ÅÃµÈ ´Ü¾î¿¡¼­ °°Àº°Ô ÀÖ´ÂÁö È®ÀÎ
-		//ÀÖÀ¸¸é characters ÀÇ ÀÎµ¦½º À§Ä¡¿¡ ÀÔ·Â
+		//ì‚¬ìš©ìê°€ ì…ë ¥í•œ í•œë¬¸ìë¥¼ ì„ íƒëœ ë‹¨ì–´ì—ì„œ ê°™ì€ê²Œ ìˆëŠ”ì§€ í™•ì¸
+		//ìˆìœ¼ë©´ characters ì˜ ì¸ë±ìŠ¤ ìœ„ì¹˜ì— ì…ë ¥
 		for(int i=0;i<selectWord.length();i++) {
 			if(c==selectWord.charAt(i)) {
 				characters[i]=c;

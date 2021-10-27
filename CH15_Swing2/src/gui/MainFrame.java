@@ -8,7 +8,7 @@ public class MainFrame extends JFrame{
 	private static final long serialVersionUID = 1L;
 	
 	public MainFrame(String title) {
-		super(title);//JFrame¿¡ Å¸ÀÌÆ²À» »ı¼ºÇÏµµ·Ï.
+		super(title);//JFrameì— íƒ€ì´í‹€ì„ ìƒì„±í•˜ë„ë¡.
 		
 		MainPanel mainPanel=new MainPanel();
 		

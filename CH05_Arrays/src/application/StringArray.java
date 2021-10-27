@@ -3,13 +3,13 @@ package application;
 public class StringArray {
 
 	public static void main(String[] args) {
-		// ¹®ÀÚ¿­·Î ¸¸µç ¹è¿­
-		String[] animals= {"°í¾çÀÌ", "°³","Æë±Ï","»çÀÚ"};
+		// ë¬¸ìì—´ë¡œ ë§Œë“  ë°°ì—´
+		String[] animals= {"ê³ ì–‘ì´", "ê°œ","í­ê·„","ì‚¬ì"};
 		System.out.println(animals[0]);
 		System.out.println(animals[1]);
 		System.out.println(animals[2]);
 		System.out.println(animals[3]);
-		animals[2]="´ß";
+		animals[2]="ë‹­";
 		System.out.println(animals[2]);
 	}
 	

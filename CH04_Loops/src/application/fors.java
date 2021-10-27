@@ -3,7 +3,7 @@ package application;
 public class fors {
 	public static void main(String[] args) {
 //		for(;;) {
-//			System.out.println("¹«ÇÑ¹Ýº¹")
+//			System.out.println("ë¬´í•œë°˜ë³µ")
 //		}
 		int sub=0;
 		for(int i=0; i<3; i++) {

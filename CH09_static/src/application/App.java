@@ -3,21 +3,21 @@ package application;
 public class App {
 
 	public static void main(String[] args) {
-		Cat cat1=new Cat("¸¶Æ¿´Ù");
-		Cat cat2=new Cat("¶óÀÌ¾ğ");
+		Cat cat1=new Cat("ë§ˆí‹¸ë‹¤");
+		Cat cat2=new Cat("ë¼ì´ì–¸");
 		
 		
 		
 		System.out.println(cat1);
 		System.out.println(cat2.toString());
 		
-		//½ºÅÂÆ½ º¯¼ö´Â °´Ã¼¿Í »ó°ü¾øÀÌ Å¬·¡½º¸í.º¯¼ö·Î »ç¿ëÇÑ´Ù °´Ã¼ »ı¼ºÇÒ ÇÊ¿ä°¡ ¾øÀ½.
+		//ìŠ¤íƒœí‹± ë³€ìˆ˜ëŠ” ê°ì²´ì™€ ìƒê´€ì—†ì´ í´ë˜ìŠ¤ëª….ë³€ìˆ˜ë¡œ ì‚¬ìš©í•œë‹¤ ê°ì²´ ìƒì„±í•  í•„ìš”ê°€ ì—†ìŒ.
 		System.out.println(Cat.FOOD);
 
 		System.out.println(cat1.getCount());
 		System.out.println(cat2.getCount());
 		
-		Cat cat3=new Cat("¿ï¹ö¸°");
+		Cat cat3=new Cat("ìš¸ë²„ë¦°");
 		System.out.println(cat3.getCount());
 	}
 

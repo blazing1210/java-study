@@ -7,7 +7,7 @@ public class App {
 		ani1.eat();
 		
 		Bird bird1=new Bird();
-		bird1.eat(); //»ó¼Ó¹ŞÀº µ¿¹°ÀÇ ¸Ş¼Òµå
+		bird1.eat(); //ìƒì†ë°›ì€ ë™ë¬¼ì˜ ë©”ì†Œë“œ
 		bird1.fly(); 
 	}
 

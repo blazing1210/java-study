@@ -8,7 +8,7 @@ public class Gamble {
 	
 		double dollar =dice()+dice()+dice();
 		double won=exchange(dollar);
-		System.out.printf("È¹µæ ±İ¾×: $%.2f(%.0f¿ø)",dollar,won);
+		System.out.printf("íšë“ ê¸ˆì•¡: $%.2f(%.0fì›)",dollar,won);
 	}
 	public static int dice() {
 		Random ran=new Random();

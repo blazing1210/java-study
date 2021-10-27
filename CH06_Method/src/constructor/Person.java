@@ -1,12 +1,12 @@
 package constructor;
 
 public class Person {
-		//º¯¼ö
+		//ë³€ìˆ˜
 		private String name;
 		private double height;
-		//»ı¼ºÀÚ »ı·«°¡´É
+		//ìƒì„±ì ìƒëµê°€ëŠ¥
 		public Person(){
-			System.out.println("ÇÑ »ç¶÷À» »ı¼º!");
+			System.out.println("í•œ ì‚¬ëŒì„ ìƒì„±!");
 		}
 		void setName(String name) {
 			this.name=name;
