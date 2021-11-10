@@ -7,7 +7,7 @@ public class App2 {
 	public static void main(String[] args) {
 	Scanner scanner=new Scanner(System.in);
 	System.out.print("숫자를 입력 : ");
-	String line  = scanner.nextLine();
+	String line  = scanner.next();
 	
 	int number=0;
 	boolean isNumber=false;
